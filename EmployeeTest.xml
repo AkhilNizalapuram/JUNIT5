@@ -4,8 +4,8 @@
         <classes>
             <class name="com.nisum.poc.TestNG.EmployeeTest">
                 <methods>
-                    <include name="validatecreateEmployee" />
-                    <exclude name="validateupdateteEmployee" />
+                    <exclude name="validatecreateEmployee" />
+                    <include name="validateupdateEmployee" />
                     <include name="validateDeleteEmployee" />
                 </methods>
             </class>

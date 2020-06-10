@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <parameter name="external_id" value="HYD_TEST001"/>
+    <parameter name="Name" value="Hyderabad Test Station"/>
+    <parameter name="Latitude" value="17.49"/>
+    <parameter name="Longitude" value="79.97"/>
+    <parameter name="Altitude" value="552"/>
+    <test name="Weather data">
+        <classes>
+            <class name= "com.nisum.poc.TestNG.WeatherTest"/>
+        </classes>
+    </test>
+</suite>

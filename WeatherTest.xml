@@ -4,8 +4,8 @@
         <classes>
             <class name="com.nisum.poc.TestNG.WeatherTest">
                 <methods>
-                    <include name="validatecreateWeather" />
-                    <exclude name="validateupdateteWeather" />
+                    <exclude name="validatecreateWeather" />
+                    <include name="validateupdateWeather" />
                     <include name="validateDeleteWeather" />
                 </methods>
             </class>
